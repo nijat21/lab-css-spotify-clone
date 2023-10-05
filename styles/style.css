@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: 'Circular', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 80px;
+  width: ;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: auto;
+  height: 65px;
+  margin-left: 40px;
+}
+
+.icons {
+  width: auto;
+  height: 100px;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.buttons {
+  width: 500px;
+}
+
+.sec1 {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  width: auto;
+  height: 800px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro {
+  width: 600px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.sec2 {
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: flex;
+}
+
+#question {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  border-bottom: 3px solid #00b172;
+  width: auto;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 380px;
+}
+
+.func-title {
+  color: #00b172;
+}
+
+.func-phrases {
+  width: 300px;
+  text-align: center;
+}
+
+.sec3 {
+  width: auto;
+  height: 800px;
+  background-color: #00b172;
+  color: white;
+
+  margin: 30px 30px;
+
+  background-image: url(../images/spotify-icon-white.png);
+  background-size: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sub-sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.more-info {
+  width: 350px;
+}
+
+#photo2 {
+  width: auto;
+  height: 600px;
+  /* margin-top: 60px; */
+}
+
+#footer-line {
+  border-bottom: 3px solid white;
+  padding: 10px 0;
+}
